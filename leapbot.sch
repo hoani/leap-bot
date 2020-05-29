@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Leapbot"
+Date "2020-05-29"
+Rev "0.0.0"
+Comp "Leetware"
+Comment1 "github.com/hoani/leap-bot"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -2162,7 +2162,7 @@ Wire Wire Line
 	6850 5100 6950 5100
 Wire Wire Line
 	6850 5000 6950 5000
-Text Notes 9600 5850 0    50   ~ 0
+Text Notes 9850 5900 0    50   ~ 0
 Extras: \n- 2x Motor/Encoder Cable, 50mm, 6-pin\n   A06SR06SR30K51B\n- 1x Magnetic encoder pair Polou 4761\n   2183-4761-ND\n- 2x Pololu Motor 2217\n   2183-2217-ND\n- wheels: https://www.aliexpress.com/item/32854636812.html
 Wire Wire Line
 	800  3800 800  3700
@@ -2429,6 +2429,7 @@ F 0 "U4" H 2150 4550 50  0000 C CNN
 F 1 "ADP2302ARDZ-3.3" H 3050 3850 50  0000 C CNN
 F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 2650 3850 50  0001 L CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP2302_2303.pdf" H 2300 4800 50  0001 C CNN
+F 4 "ADP2302ARDZ-3.3" H 2500 4200 50  0001 C CNN "PartNumber"
 	1    2500 4200
 	1    0    0    -1  
 $EndComp
@@ -2633,4 +2634,15 @@ NoConn ~ 900  2600
 NoConn ~ 6850 3900
 Wire Wire Line
 	6850 3000 6950 3000
+$Comp
+L Graphic:SYM_Arrow45_Large SYM1
+U 1 1 5FD413E8
+P 10700 3900
+F 0 "SYM1" H 10700 4060 50  0001 C CNN
+F 1 "LOGO" H 10838 3899 50  0000 L CNN
+F 2 "leapbot:logo" H 10700 3900 50  0001 C CNN
+F 3 "~" H 10700 3900 50  0001 C CNN
+	1    10700 3900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
