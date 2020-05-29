@@ -2162,8 +2162,6 @@ Wire Wire Line
 	6850 5100 6950 5100
 Wire Wire Line
 	6850 5000 6950 5000
-Text Notes 9850 5900 0    50   ~ 0
-Extras: \n- 2x Motor/Encoder Cable, 50mm, 6-pin\n   A06SR06SR30K51B\n- 1x Magnetic encoder pair Polou 4761\n   2183-4761-ND\n- 2x Pololu Motor 2217\n   2183-2217-ND\n- wheels: https://www.aliexpress.com/item/32854636812.html
 Wire Wire Line
 	800  3800 800  3700
 Wire Wire Line
