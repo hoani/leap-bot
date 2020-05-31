@@ -794,7 +794,6 @@ Text Label 5300 1250 0    50   ~ 0
 ~RESET
 Text Label 7100 1250 0    50   ~ 0
 BOOT_OP
-NoConn ~ 5650 3000
 NoConn ~ 5650 3100
 $Comp
 L power:GND #PWR04
@@ -1729,17 +1728,17 @@ Wire Wire Line
 Connection ~ 3100 6450
 Text Label 6750 6000 0    50   ~ 0
 LS_PF
-Text Label 5400 4100 0    50   ~ 0
+Text Label 6950 3700 0    50   ~ 0
 LS_FF
-Text Label 5400 4500 0    50   ~ 0
+Text Label 6950 3500 0    50   ~ 0
 LS_FL
-Text Label 6950 4300 0    50   ~ 0
+Text Label 5400 3000 0    50   ~ 0
 LS_FR
-Text Label 6950 4100 0    50   ~ 0
+Text Label 6950 3200 0    50   ~ 0
 LS_BR
-Text Label 5400 4200 0    50   ~ 0
+Text Label 6950 3400 0    50   ~ 0
 LS_BL
-Text Label 6950 3300 0    50   ~ 0
+Text Label 6950 3000 0    50   ~ 0
 LS_BB
 Text Label 6950 4900 0    50   ~ 0
 ~M1_Fault
@@ -1753,9 +1752,9 @@ Text Label 6950 4700 0    50   ~ 0
 M1_EA
 Text Label 6950 3600 0    50   ~ 0
 M1_EB
-Text Label 6950 3500 0    50   ~ 0
+Text Label 6950 4100 0    50   ~ 0
 M2_EA
-Text Label 6950 3400 0    50   ~ 0
+Text Label 6950 4000 0    50   ~ 0
 M2_EB
 $Comp
 L dk_Transistors-FETs-MOSFETs-Single:FDV301N Q1
@@ -1982,9 +1981,9 @@ Wire Wire Line
 	2000 6650 2400 6650
 Wire Wire Line
 	2000 5950 2400 5950
-Text Label 6950 3000 0    50   ~ 0
+Text Label 5400 4000 0    50   ~ 0
 LS_PF
-Text Label 6950 3200 0    50   ~ 0
+Text Label 5400 4100 0    50   ~ 0
 LS_PB
 Text Label 6950 4600 0    50   ~ 0
 M1_IN2
@@ -2082,17 +2081,17 @@ Text Label 1500 7150 0    50   ~ 0
 LED6
 Text Label 1500 7450 0    50   ~ 0
 LED7
-Text Label 6950 3700 0    50   ~ 0
+Text Label 5400 4400 0    50   ~ 0
 LED0
-Text Label 5400 4300 0    50   ~ 0
+Text Label 5400 4200 0    50   ~ 0
 LED1
-Text Label 6950 4000 0    50   ~ 0
+Text Label 6950 4300 0    50   ~ 0
 LED2
 Text Label 6950 3800 0    50   ~ 0
 LED3
-Text Label 5400 4000 0    50   ~ 0
+Text Label 5400 4500 0    50   ~ 0
 LED4
-Text Label 5400 4400 0    50   ~ 0
+Text Label 5400 4300 0    50   ~ 0
 LED5
 Text Label 6950 4200 0    50   ~ 0
 LED6
@@ -2643,4 +2642,7 @@ F 3 "~" H 10700 3900 50  0001 C CNN
 	1    10700 3900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5400 3000 5650 3000
+NoConn ~ 6950 3300
 $EndSCHEMATC
